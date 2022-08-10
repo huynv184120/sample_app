@@ -61,3 +61,6 @@ build-iPhoneSimulator/
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml
