@@ -1,0 +1,13 @@
+vi:
+  static_pages:
+    help:
+      heading: trợ giúp
+      intro: Nhận trợ giúp về Hướng dẫn Ruby on Rails tại
+      page_name: Trang Trợ giúp Hướng dẫn Rails
+      book_page: Để nhận trợ giúp về ứng dụng mẫu này, hãy xem
+      book: Ruby on Rails Tutorial
+    contact:
+      heading: Liên Hệ
+      intro: Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại
+      contact: trang liên hệ
+
