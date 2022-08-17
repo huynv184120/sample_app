@@ -1,5 +1,5 @@
 regex:
-  VALID_EMAIL_REGEX : /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  VALID_EMAIL_REGEX : !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 valid:
   password:
     minlength: 6
