@@ -10,4 +10,13 @@ vi:
       heading: Liên Hệ
       intro: Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại
       contact: trang liên hệ
+  users: 
+    create: 
+      welcome: Chào mừng đến với Sample App!
+    new:
+      create: Tao tai khoan moi
+      confirm: Xac nhan
 
+  sessions:
+    create:
+      invalid_pass_or_email: "mat khau va tai khoan khong hop le"

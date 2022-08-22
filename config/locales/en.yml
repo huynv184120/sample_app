@@ -41,3 +41,12 @@ en:
       heading: contact
       intro: Contact the Ruby on Rails Tutorial about the sample app at the
       contact: Contact Page
+  users: 
+    create: 
+      welcome: Welcome to Sample App!
+    new:
+      create: Create my account
+      confirm: Confirmation
+  sessions:
+    create:
+      invalid_pass_or_email: "invalid email password combination"
