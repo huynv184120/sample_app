@@ -62,9 +62,9 @@ build-iPhoneSimulator/
 yarn-debug.log*
 .yarn-integrity
 
-/.framgia-ci-reports/
-/.framgia-ci-result.temp.yml
-/.framgia-ci-reports/rubocop.xml
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml
+.framgia-ci-reports/rubocop.xml
 
 /test
 /log

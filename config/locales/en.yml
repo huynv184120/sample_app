@@ -41,3 +41,28 @@ en:
       heading: contact
       intro: Contact the Ruby on Rails Tutorial about the sample app at the
       contact: Contact Page
+  users: 
+    create: 
+      welcome: Welcome to Sample App!
+    new:
+      create: Create my account
+      confirm: Confirmation
+  sessions:
+    new:
+      log_in: login
+      new_user?: new user ?
+      sign_up_now: sign up now
+      remember: Remember me on this computer
+    create:
+      invalid_pass_or_email: "invalid email password combination"
+      
+  layouts:
+    header:
+      users: Users
+      account: Account
+      profile: Profile
+      settings: Settings
+      logout: Log out
+      login: Log in
+      home: Home
+      help: Help
