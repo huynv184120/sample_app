@@ -16,7 +16,21 @@ vi:
     new:
       create: Tao tai khoan moi
       confirm: Xac nhan
-
   sessions:
+    new:
+      log_in: Dang nhap
+      new_user?: tao nguoi dung moi ?
+      sign_up_now: dang ki ngay
+      remember: nho toi o may tinh
     create:
       invalid_pass_or_email: "mat khau va tai khoan khong hop le"
+  layouts:
+    _header:
+      users: nguoi dung
+      account: tai khoan
+      profile: thong tin tai khoan
+      settings: cai dat
+      logout: dang xuat
+      login: dang nhap
+      home: Trang chu
+      help: Giup do

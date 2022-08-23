@@ -48,5 +48,21 @@ en:
       create: Create my account
       confirm: Confirmation
   sessions:
+    new:
+      log_in: login
+      new_user?: new user ?
+      sign_up_now: sign up now
+      remember: Remember me on this computer
     create:
       invalid_pass_or_email: "invalid email password combination"
+      
+  layouts:
+    header:
+      users: Users
+      account: Account
+      profile: Profile
+      settings: Settings
+      logout: Log out
+      login: Log in
+      home: Home
+      help: Help

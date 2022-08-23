@@ -1,5 +1,7 @@
 class ApplicationController < ActionController::Base
+  include SessionsHelper
   before_action :set_locale
+  
   private
   def set_locale
     Rails.logger.debug "set locale"
