@@ -16,6 +16,18 @@ vi:
     new:
       create: Tao tai khoan moi
       confirm: Xac nhan
+      text_button: Tao
+      require_login: Ban can phai dang nhap
+    edit:
+      update_profile: cap nhat thong tin cua ban
+      change: thay doi
+      confirm: xac nhan
+      text_button: luu thay doi
+      user_not_exist: Khong tim thay tai khoan
+    update:
+      failure: update failure
+    destroy:
+      failure: delete failure
   sessions:
     new:
       log_in: Dang nhap
