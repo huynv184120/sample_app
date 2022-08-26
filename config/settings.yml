@@ -8,3 +8,8 @@ valid:
     maxlength: 50
   name: 
     maxlength: 50
+pagy:
+  page_size: 10
+avatar:
+  default_size: 80
+  size: 50

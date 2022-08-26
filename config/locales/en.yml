@@ -47,6 +47,15 @@ en:
     new:
       create: Create my account
       confirm: Confirmation
+      text_button: Create
+      require_login: You must have login
+      user_not_exist: User not found
+    edit:
+      update_profile: Update Your Profile
+      change: change
+      confirm: Confirmation
+      text_button: Save changes
+      user_not_exist: User not found
   sessions:
     new:
       log_in: login
