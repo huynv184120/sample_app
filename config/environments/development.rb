@@ -35,6 +35,17 @@ Rails.application.configure do
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default_url_options = {host: ENV["host"]}
+  config.action_mailer.smtp_settings = {
+    user_name: ENV["mail_user_name"],
+    password: ENV["mail_user_password"],
+    address: ENV["mail_address"],
+    port: ENV["mail_port"],
+    domain: ENV["mail_domain"],
+    authentication: :plain,
+    enable_starttls_auto: true
+  }
 
   config.action_mailer.perform_caching = false
 

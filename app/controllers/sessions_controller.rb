@@ -3,8 +3,8 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by email: params[:session][:email].downcase
-    if user&.authenticate params[:session][:password]
-      handle_login user
+    if user&.authenticated? :password, params[:session][:password]
+      handle_authenticated user
     else
       flash.now[:danger] = t(".invalid_pass_or_email")
       render :new
@@ -26,5 +26,14 @@ class SessionsController < ApplicationController
       forget user
     end
     redirect_back_or user
+  end
+
+  def handle_authenticated user
+    if user.activated?
+      handle_login user
+    else
+      flash.now[:warning] = t(".account_not_active")
+      render :new
+    end
   end
 end
