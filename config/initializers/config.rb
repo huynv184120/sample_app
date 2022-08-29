@@ -55,4 +55,5 @@ Config.setup do |config|
   # Evaluate ERB in YAML config files at load time.
   #
   # config.evaluate_erb_in_yaml = true
+  
 end

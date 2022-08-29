@@ -8,6 +8,7 @@ valid:
     maxlength: 50
   name: 
     maxlength: 50
+  password_reset_expired_hours: 2
 pagy:
   page_size: 10
 avatar:
