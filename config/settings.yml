@@ -9,8 +9,16 @@ valid:
   name: 
     maxlength: 50
   password_reset_expired_hours: 2
+  maxlength_content: 140
 pagy:
   page_size: 10
 avatar:
   default_size: 80
   size: 50
+micropost:
+  content_max: 140
+  accept_path: "image/jpeg,image/gif,image/png"
+  size: 50
+  image_type: ["image/jpeg", "image/gif", "image/png"]
+  resize_to_limit: [500, 500]
+  image_size: 5

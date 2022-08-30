@@ -37,7 +37,7 @@ class PasswordResetsController < ApplicationController
 
     flash[:danger] = t(".user_not_exist")
   end
-  
+
   def valid_user
     return if @user&.activated? && @user&.authenticated?(:reset, params[:id])
 
