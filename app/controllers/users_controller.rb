@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
-  before_action :find_user, only: %i(show edit update destroy)
-  before_action :logged_in_user, only: %i(index edit update)
+  before_action :logged_in_user, except: %i(create new)
+  before_action :find_user, except: %i(index new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: %i(destroy)
 
@@ -50,6 +50,21 @@ items: Settings.pagy.page_size)
     else
       flash[:error] = t(".failure")
     end
+  end
+
+  def following
+    @title = t ".following"
+    @pagy, @users = pagy @user.following, page: params[:page],
+                                          items: Settings.pagy.page_size
+
+    render :show_follow
+  end
+
+  def followers
+    @title = t ".followers"
+    @pagy, @users = pagy @user.followers, page: params[:page],
+                                          items: Settings.pagy.page_size
+    render :show_follow
   end
 
   private
